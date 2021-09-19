@@ -76,6 +76,9 @@ elif(player_choice == 2 and computer_random == 1):
 elif(player_choice == 2 and computer_random == 2):
     print("You lose")
 
+elif (player_choice >=3):
+    print("You have choosen invalid number.")
+
 else:
     print("Draw")
 

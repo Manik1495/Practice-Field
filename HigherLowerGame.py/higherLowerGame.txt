@@ -1,0 +1,49 @@
+"""
+How to deal with this??
+
+1.  Print logo "Higher lower"
+2.  Print "Compare A: Shawn Mendes, a Musician, from Canada."
+    Store the Compare_A
+    Here "Compare A" is constant and other values are retrived from data.
+    data = [
+    {
+        'name': 'Instagram',
+        'follower_count': 346,
+        'description': 'Social media platform',
+        'country': 'United States'
+    },
+
+    So 
+    'name' = Shawn Mendes
+    'description' = Musician
+    'country' = Canada
+
+    hence,
+    Compare A: Shawn Mendes, a Musician, from Canada. --> Compare A: {'name':Shawn Mendes}, a {'description':'Musician'}, from {'country':'Canada'}
+
+    How to randon generate these values??
+    *************************************
+    Define a function for random key-value generation from the list --> def random_nameGen()
+
+
+3.  Print logo "VS"
+
+4.  Print "Against B: NBA, a Club Basketball Competition, from United States." --> follow same as step 2.
+    Store the Against_B.
+
+5.  Input from user --> "Who has more followers? Type 'A' or 'B':"
+
+6.  Define a function which calculates who has more followers. Return the result. --> def who_got_moreFollow()
+
+7. If result is TRUE, print "Compare A" with value of "Against B:" --> Copy paste that thing
+    Compare_A = Against_B
+    Current_Score += 1
+    Call the random_nameGen() and return the value into Against_B.
+
+8. If the choice is wrong print logo and "Sorry, that's wrong. Final score: 1"
+
+
+Now the question is how to continue 
+
+
+"""

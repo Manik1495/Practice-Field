@@ -98,7 +98,7 @@ while is_game:
     
 
     result_B = func_againstB()
-    print(result_B)
+    # print(result_B)
     name_fromdict = result_B[0]
     follower_countdictB = result_B[1]
     description_fromdict = result_B[2]

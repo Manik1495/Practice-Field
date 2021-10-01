@@ -1,0 +1,45 @@
+1.  Print the report 
+        What would you like? (espresso/latte/cappuccino): report
+            Water: 300ml
+            Milk: 200ml
+            Coffee: 100g
+            Money: $0
+
+2.  Check resources are sufficient?
+        What would you like? (espresso/latte/cappuccino): report
+        Water: 300ml
+        Milk: 200ml
+        Coffee: 100g
+        Money: $0
+        ​What would you like? (espresso/latte/cappuccino): latte
+        Please insert coins.
+        how many quarters?: 12
+        how many dimes?: 12
+        how many nickles?: 12
+        how many pennies?: 12
+        Here is $2.42 in change.
+        Here is your latte ☕️. Enjoy!
+        ​What would you like? (espresso/latte/cappuccino): latte
+        ​Sorry there is not enough water.
+        ​What would you like? (espresso/latte/cappuccino): 
+
+3. Process Coins.
+    Scenario : Not enough dollars
+    *****************************
+    What would you like? (espresso/latte/cappuccino): espresso
+    Please insert coins.
+    how many quarters?: 1
+    how many dimes?: 1
+    how many nickles?: 1
+    how many pennies?: 1
+    Sorry that's not enough money. Money refunded.
+    ​What would you like? (espresso/latte/cappuccino):  
+
+    Scenario : More than  enough dollars
+    *****************************
+    In this case, calculate the remaining change.
+
+4.  Check transaction successful? --> Money refunded when not enough money.
+
+5.  Make Coffee. 
+    In the process of making coffee, we should reduce the resources.
